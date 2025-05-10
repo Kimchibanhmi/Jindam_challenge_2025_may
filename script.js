@@ -305,6 +305,12 @@ document.addEventListener('DOMContentLoaded', function () {
   function showReviewPopup() {
     gameArea.classList.add('hidden');
 
+    // 완료한 Day 번호 표시
+    const dayNumberElement = document.getElementById('day-number');
+    if (dayNumberElement) {
+      dayNumberElement.textContent = currentDay;
+    }
+
     // 복습할 문장 추가
     reviewSentences.innerHTML = '';
 
