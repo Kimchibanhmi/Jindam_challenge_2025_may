@@ -285,28 +285,28 @@ const sentenceData = {
       isFinal: false,
       korean: '(해도) 되나요?',
       chinese: {
-        hanzi: ['可以', '吗？'],
-        pinyin: ['Kěyǐ', 'ma'],
+        hanzi: ['可以吗？'],
+        pinyin: ['Kěyǐ ma'],
       },
     },
     {
       id: 'sentence6',
       level: 3,
       isFinal: false,
-      korean: '여기 둬도 되나요?',
+      korean: '여기 둬도 되나요(괜찮나요)?',
       chinese: {
-        hanzi: ['放', '这儿', '可以', '吗？'],
-        pinyin: ['Fàng', 'zhèr', 'kěyǐ', 'ma'],
+        hanzi: ['放', '这儿', '可以吗？'],
+        pinyin: ['Fàng', 'zhèr', 'kěyǐ ma'],
       },
     },
     {
       id: 'sentence6',
       level: 4,
       isFinal: true,
-      korean: '수화물카트 여기에 둬도 되나요?',
+      korean: '수화물카트 여기에 둬도 되나요(괜찮나요)?',
       chinese: {
-        hanzi: ['行李推车', '放', '这儿', '可以', '吗？'],
-        pinyin: ['Xínglǐ tuīchē', 'fàng', 'zhèr', 'kěyǐ', 'ma'],
+        hanzi: ['行李推车', '放', '这儿', '可以吗？'],
+        pinyin: ['Xínglǐ tuīchē', 'fàng', 'zhèr', 'kěyǐ ma'],
       },
     },
 
