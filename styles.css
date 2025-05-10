@@ -271,7 +271,7 @@ header:after {
 .card .pinyin {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.1rem;
-  font-style: italic;
+  font-style: bold;
   margin-bottom: 0.1rem;
 }
 
