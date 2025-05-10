@@ -60,7 +60,7 @@ header:after {
   right: 10px;
   color: #2ecc71;
   font-size: 0.9rem;
-  font-style: italic;
+  font-style: bold;
 }
 
 .popup {
@@ -88,20 +88,25 @@ header:after {
   border: 5px solid #2ecc71;
 }
 
-.popup-content h2 {
-  margin-bottom: 1.5rem; /* 여백 크기 조절 */
-}
-
 .popup h2 {
   color: #27ae60;
   font-size: 1.5rem;
   text-align: center;
 }
+
+.popup-content h2 {
+  margin-bottom: 1.5rem; /* 여백 크기 조절 */
+}
+
 .popup-content h4 {
   text-align: center;
   color: #666;
   margin-bottom: 1rem;
   font-size: 0.9rem;
+}
+
+.popup-content h4 + h4 {
+  margin-top: 0rem;      /* 연속된 h4 태그 사이의 여백 제거 */
 }
 
 .popup p {
@@ -411,7 +416,7 @@ button:active {
 .review-item .pinyin {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.1rem;
-  font-style: italic;
+  font-style: bold;
   margin-bottom: 0.6rem;
   color: #404040;
   font-weight: 500;
