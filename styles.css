@@ -88,6 +88,10 @@ header:after {
   border: 5px solid #2ecc71;
 }
 
+.popup-content h2 {
+  margin-bottom: 1.5rem; /* 여백 크기 조절 */
+}
+
 .popup h2 {
   color: #27ae60;
   font-size: 1.5rem;
