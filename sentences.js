@@ -446,7 +446,7 @@ const sentenceData = {
       isFinal: false,
       korean: '…할 수 없다',
       chinese: {
-        hanzi: ['不了'],
+        hanzi: ['...不了'],
         pinyin: ['bu liǎo'],
       },
     },
