@@ -1299,8 +1299,8 @@ const sentenceData = {
       korean:
         '저는 이 사이트에서 예약했어요.(이 사이트에서를 강조할 때) ***"어디에서 예약하신 거예요?"라는 질문에 대한 답변이기 때문에 "이 사이트에서"가 "강조"되는 거예요 어법상 "是…...的"구문으로 볼 수 있어요.',
       chinese: {
-        hanzi: ['我', '是', '在', '这个', '网站', '预订', '的', '。'],
-        pinyin: ['Wǒ', 'shì', 'zài', 'zhè ge', 'wǎngzhàn', 'yùdìng', 'de', '.'],
+        hanzi: ['我', '是', '在', '这个', '网站', '预订', '的'],
+        pinyin: ['Wǒ', 'shì', 'zài', 'zhè ge', 'wǎngzhàn', 'yùdìng', 'de'],
       },
     },
 
@@ -1462,7 +1462,7 @@ const sentenceData = {
       korean: '좀 늦게 체크아웃 해도 되나요(레이트 체크아웃 가능할까요)?',
       chinese: {
         hanzi: ['可以', '晚点', '退房', '吗？'],
-        pinyin: ['Kěyǐ', 'wǎn diǎn', 'tuìfáng', 'ma'],
+        pinyin: ['Kěyǐ', 'wǎn diǎn', 'tuì fáng', 'ma'],
       },
     },
 
@@ -1596,8 +1596,8 @@ const sentenceData = {
       isFinal: false,
       korean: '빈 방',
       chinese: {
-        hanzi: ['空房间'],
-        pinyin: ['Kōng fángjiān'],
+        hanzi: ['空', '房间'],
+        pinyin: ['Kōng', 'fángjiān'],
       },
     },
     {
@@ -1630,7 +1630,8 @@ const sentenceData = {
           '高楼层',
           '还',
           '有',
-          '空房间',
+          '空',
+          '房间',
           '吗？',
           '我',
           '想',
@@ -1641,7 +1642,8 @@ const sentenceData = {
           'Gāo lóucéng',
           'hái',
           'yǒu',
-          'kōng fángjiān',
+          'kōng',
+          'fángjiān',
           'ma',
           'Wǒ',
           'xiǎng',
