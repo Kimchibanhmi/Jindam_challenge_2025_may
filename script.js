@@ -487,6 +487,11 @@ document.addEventListener('DOMContentLoaded', function () {
   // 게임 초기화
   createDayButtons();
 
+  // 모든 Day 강제 해금
+  for (let i = 1; i <= 10; i++) {
+    unlockDay(i);
+  }
+
   // 현재 시간 체크하여 해금 가능한 Day 확인
   for (let i = 1; i < 10; i++) {
     if (isDayUnlocked(i)) {
